@@ -1,4 +1,12 @@
 {
+  {
+  "name": "education-root",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}
   "name": "education-backend",
   "version": "2.0.0",
   "description": "Express + MongoDB backend for the education website (with admin panel)",
